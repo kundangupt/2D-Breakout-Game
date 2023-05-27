@@ -99,3 +99,11 @@ function drawBall() {
     ball.style.left = ballCurrentPosition[0] + 'px'
     ball.style.bottom = ballCurrentPosition[1] + 'px'
   }
+
+  //move ball
+function moveBall() {
+    ballCurrentPosition[0] += xDirection
+    ballCurrentPosition[1] += yDirection
+    drawBall()
+    checkForCollisions()
+}
