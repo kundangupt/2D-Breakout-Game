@@ -65,3 +65,9 @@ const user = document.createElement('div')
 user.classList.add('user')
 grid.appendChild(user)
 drawUser()
+
+//add ball
+const ball = document.createElement('div')
+ball.classList.add('ball')
+grid.appendChild(ball)
+drawBall()
